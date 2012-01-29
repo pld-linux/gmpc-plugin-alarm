@@ -2,7 +2,7 @@
 Summary:	gmpc-alarm - basic timer plugin for gmpc
 Name:		gmpc-plugin-alarm
 Version:	11.8.16
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{source_name}-%{version}.tar.gz
@@ -56,4 +56,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README TODO
 %attr(755,root,root) %{_libdir}/gmpc/plugins/alarmplugin.so
-%{_datadir}/gmpc-alarm
